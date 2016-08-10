@@ -41,6 +41,7 @@ h6 {
 	position: absolute;
 	margin-right:5px;
 	border: 3px solid #3AA7EA;
+
 }
 .summary{
 	max-width:500px;
@@ -54,6 +55,7 @@ h6 {
 	color: #AC0909;
 	/*text-align: justify;*/
 	overflow: hidden;
+	width:100%;
 }
 footer {
 	border-top:3px solid #3AA7EA;
@@ -123,12 +125,22 @@ div {
 	margin-right:10px;
 	margin-left:10px;
 }
-.contact{
+/*.contact{
 	margin-left:200px;
 }
 .us{
-	margin-left:200px;
+	margin-left:200px;*/
+}
+@media screen and (max-width: 30em) {
+    body {
+        font-size: 90%;
+    }
 }
 
+@media screen and (max-width: 20em) {
+    body {
+        font-size: 80%;
+    }
+}
 
 
