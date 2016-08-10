@@ -1,22 +1,29 @@
 <!DOCTYPE <html>
 <head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">      
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script> 
+    <script type="text/javascript" src="app.js"></script>
 	<title>Uff Da Shoppe</title>
-	<link rel="stylesheet" type="text/css" href="style.css" media="screen">
 </head>
 <body>
 	<header>
 		<img src="http://i.imgur.com/BHZM7Yh.jpg" class="logo"/>
 		<ul>
-	        <li> <a href="about.html">About</a></li>
-	        <li> <a href="contact.html">Contact</a></li>
+	        <li><a href="about.html" class="home">About</a></li>
+	        <li><a href="contact.html" class="home">Contact</a></li>
       </ul>
 	</header>
 	<div class="storefront"> 
 		<img src="https://c2.staticflickr.com/2/1029/1381335334_73c2457f79_b.jpg"/>
 	 </div>
-	<div class="summary"> 
-		<h1>The Uff Da Shoppe</h1>
-		<h3>Come in and browse our extensive gift collection from around the world.</h3>
+	<div class="summary">
+	<br><br> 
+		<h4 class="index">Come in and browse our extensive gift collection from around the world.</h4>
 		<p>There is something for everyone at the Uff Da Shoppe, ranging from Scandinavian cookware to German Christmas ornaments, Uff Da University t-shirts and diplomas, Swedish electric candle trees...and much more.
 		<br>
 		<p>Camano Islanders always have a fine selection of beach and nautical gifts for friends and relatives.</p>
@@ -24,18 +31,24 @@
 		<p>Make the Uff Da Shoppe your next destination, one hour North of Seattle and one hour South of Bellingham!</p>
 	</div> 
 	<br>
-
+	<div id="uffda">
+		<div id="gnomer" class="col s4 pull-s8"><img src="http://www.uffdashoppe.com/images/gnome_gif.gif"/></div>
+		<div class="col s4"><h4>What does "uffda" mean?</h4>
+		<p id="expression">"Uffda" is a fun expression used by Norwegians and other nationalities. It's a polite expression generally referring to a mistake or an "oh darn" experience, or even a "whoops!" Everyone has uffdas. Let's hope all
+		of yours are good ones.</p></div>
+		<!-- <div id="gnomel" class="col s4 push-s8"><img src="http://www.uffdashoppe.com/images/gnome.gif"/></div> -->
+	</div>
 	<footer>
 		<div id="reg">
-			<h3>Regular Hours:</h3>
+			<h6>Regular Hours:</h6>
 			<p>Tuesday - Saturday 11 a.m. - 4 p.m.</p>
 			<p>Sunday 11 a.m. - 3 p.m.</p>
 		</div>
-		<div id="lefse">
+		<div class="center-align">
 			<img src="http://www.uffdashoppe.com/images/lefse_rev1.jpg">
 		</div>
 		<div id="holiday">
-			<h3>November/December Hours:</h3>
+			<h6>November/December Hours:</h6>
 			<p>Monday - Saturday 11 a.m. - 5 p.m.</p>
 			<p>Sunday 11 a.m. - 3 p.m.</p>
 		</div>

@@ -1,27 +1,37 @@
 * {
-	font-family: sans-serif;
+	font-family: roboto;
 }
 html{
 	overflow-y:scroll;
 }
-
 .logo {
 	display: block;
     margin-left: auto;
     margin-right: auto;
     width:100%;
 }
+ul{
+	text-align:center;
+}
 li{
 	display:inline-block;
+	padding: 0px 200px 0px 150px;
+}
+a{
+	color: #AC0909;
+	text-decoration:none;
 }
 
 img {
 	width:100%;
 	display: block;
 }
-h1, h3, p {
+h1, h3, h4, h5, h6, p {
 	width:100%;
 	color: #AC0909;
+}
+h6 {
+	font-weight:bold;
 }
 .storefront {
 	width:500px;
@@ -42,13 +52,14 @@ h1, h3, p {
 	position: absolute;
 	border: 3px solid #3AA7EA;
 	color: #AC0909;
-	text-align: justify;
+	/*text-align: justify;*/
 	overflow: hidden;
 }
 footer {
 	border-top:3px solid #3AA7EA;
-	position:fixed;
+	/*position:fixed;*/
     bottom:0;
+    margin-top:10px;
     margin-right:0 auto;
     margin-left:0 auto;
     display: inline-block;
@@ -59,15 +70,6 @@ footer {
 div {
 	display: inline-block;
 }
-/*.uffda {
-	width:500px;
-	height:373px;
-	border: 3px solid #3AA7EA;
-	position:absolute;
-	margin-top:388px;
-	right: 50%;
-	margin-right:5px;
-}*/
 #reg{
 	float:left;
 	margin-left:5px;
@@ -84,7 +86,49 @@ div {
 	float:right;
 	margin-right:20px;
 }
+#uffda {
+	border-top:3px solid #3AA7EA;
+	/*position:fixed;*/
+	margin-top:370px;
+    margin-bottom:5px;
+    margin-right:0 auto;
+    margin-left:0 auto;
+    display: inline-block;
+    width:100%;	
+    text-align:center;
+    clear:both;
+}
+/*#gnomer{
+	float:right;
+	margin-right:5px;
+	height:50%;
+	width:50%;
 
+}
+#gnomel{
+	float:left;
+	margin-left:5px;
+	height:50%;
+	width:50%;
+}*/
+/*#expression {
+	text-align: center;
+	overflow: hidden;
+	width:30%;
+}*/
+.index{
+	margin-top:-5;
+}
+#about {
+	margin-right:10px;
+	margin-left:10px;
+}
+.contact{
+	margin-left:200px;
+}
+.us{
+	margin-left:200px;
+}
 
 
 
