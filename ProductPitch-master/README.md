@@ -1,2 +1,0 @@
-# ProductPitch
-The business I chose for my product pitch is the Uff Da Shoppe located in Stanwood, WA. This small gift shop has been in business since the early 80's and is a landmark in my hometown. The original website is on one page and is not mobile responsive. This is the original: http://www.uffdashoppe.com/
