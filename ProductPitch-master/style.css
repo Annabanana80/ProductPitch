@@ -12,7 +12,9 @@ html{
 }
 ul{
 	text-align:center;
+	color: #AC0909;
 }
+
 li{
 	display:inline-block;
 	padding: 0px 200px 0px 150px;
@@ -26,7 +28,7 @@ img {
 	width:100%;
 	display: block;
 }
-h1, h3, h4, h5, h6, p {
+h1, h2, h3, h4, h5, h6, p {
 	width:100%;
 	color: #AC0909;
 }
@@ -40,7 +42,7 @@ h6 {
 	display: inline-block;
 	position: absolute;
 	margin-right:5px;
-	border: 3px solid #3AA7EA;
+	border: 3px double #3AA7EA;
 
 }
 .summary{
@@ -51,14 +53,14 @@ h6 {
 	margin-left:5px;
 	/*padding:0;*/
 	position: absolute;
-	border: 3px solid #3AA7EA;
+	border: 3px double #3AA7EA;
 	color: #AC0909;
 	/*text-align: justify;*/
 	overflow: hidden;
 	width:100%;
 }
 footer {
-	border-top:3px solid #3AA7EA;
+	border-top:4px double #3AA7EA;
 	/*position:fixed;*/
     bottom:0;
     margin-top:10px;
@@ -82,14 +84,14 @@ div {
     left: 230px;
     width: 275px;
     height: 196px;*/
-	/*border: 3px solid #3AA7EA;*/
+	/*border: 3px double #3AA7EA;*/
 
 #holiday {
 	float:right;
 	margin-right:20px;
 }
 #uffda {
-	border-top:3px solid #3AA7EA;
+	border-top:3px double #3AA7EA;
 	/*position:fixed;*/
 	margin-top:370px;
     margin-bottom:5px;
@@ -119,7 +121,7 @@ div {
 	width:30%;
 }*/
 .index{
-	margin-top:-5;
+	margin-top: 0;
 }
 #about {
 	margin-right:10px;
@@ -129,7 +131,14 @@ div {
 	margin-left:200px;
 }
 .us{
-	margin-left:200px;*/
+	margin-left:200px;
+}*/
+#map{
+	width:120%;
+	
+}
+h5 {
+	display:inline-block;
 }
 @media screen and (max-width: 30em) {
     body {
